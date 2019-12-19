@@ -45,9 +45,6 @@ fs.readdir('./csv')
       }));
 
     return Demographic.create(demographic);
-    // csvToJsonFiles[3].forEach(demo => {
-    //   console.log(demo);
-    // });
 
   })
   .then(() => console.log('done'));
